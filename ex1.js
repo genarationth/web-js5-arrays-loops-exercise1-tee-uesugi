@@ -11,14 +11,9 @@ myAlphabetLength();
 const planets = ['mars','earth','saturn','venus','neptune'];
 
 console.log(planets);
+console.log(planets.slice(0,2));
 
-planets.forEach(planet => console.log(planet));
-
-console.log(planets[0]);
-console.log(planets[1]);
-console.log(planets[2]);
-console.log(planets[3]);
-console.log(planets[4]);
+planets.forEach((planet,index) => console.log( `${planet} [${index}]`));
 
 //Exercise1.3//
 
